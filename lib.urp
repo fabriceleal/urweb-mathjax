@@ -1,0 +1,48 @@
+ffi mathjax
+clientOnly Mathjax.load
+clientOnly Mathjax.typeset
+clientOnly Mathjax.typesetcontent
+jsFunc Mathjax.load=UrMathJax.loadMathJax
+jsFunc Mathjax.typeset=UrMathJax.typesetMathJax
+jsFunc Mathjax.typesetcontent=UrMathJax.typesetContentMathJax
+file /MathJax/MathJax.js MathJax/MathJax.js
+file /MathJax/config/TeX-AMS_HTML-full.js MathJax/config/TeX-AMS_HTML-full.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata.js MathJax/jax/output/HTML-CSS/fonts/STIX/fontdata.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathItalic.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/MathItalic.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathItalic.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/MathItalic.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/Variants/Regular/All.js MathJax/jax/output/HTML-CSS/fonts/STIX/Variants/Regular/All.js
+file /MathJax/extensions/tex2jax.js MathJax/extensions/tex2jax.js
+file /MathJax/jax/input/TeX/config.js MathJax/jax/input/TeX/config.js
+file /MathJax/jax/output/HTML-CSS/config.js MathJax/jax/output/HTML-CSS/config.js
+file /MathJax/extensions/MathMenu.js MathJax/extensions/MathMenu.js
+file /MathJax/extensions/MathZoom.js MathJax/extensions/MathZoom.js
+file /MathJax/jax/element/mml/jax.js MathJax/jax/element/mml/jax.js
+file /MathJax/jax/input/TeX/jax.js MathJax/jax/input/TeX/jax.js
+file /MathJax/jax/output/HTML-CSS/jax.js MathJax/jax/output/HTML-CSS/jax.js
+file /MathJax/extensions/MathEvents.js MathJax/extensions/MathEvents.js
+file /MathJax/extensions/TeX/AMSmath.js MathJax/extensions/TeX/AMSmath.js
+file /MathJax/jax/output/HTML-CSS/autoload/mtable.js MathJax/jax/output/HTML-CSS/autoload/mtable.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GreekItalic.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/GreekItalic.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekItalic.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/GreekItalic.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MathBold.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Bold/MathBold.js
+file /MathJax/extensions/TeX/mathchoice.js MathJax/extensions/TeX/mathchoice.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LetterlikeSymbols.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Italic/LetterlikeSymbols.js
+file /MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LetterlikeSymbols.js MathJax/jax/output/HTML-CSS/fonts/STIX/General/Regular/LetterlikeSymbols.js
+file /MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata.js MathJax/jax/output/HTML-CSS/fonts/TeX/fontdata.js
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf
+file /MathJax/jax/output/HTML-CSS/imageFonts.js MathJax/jax/output/HTML-CSS/imageFonts.js
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf
+file /MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff MathJax/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff
+file /MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf MathJax/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf
+file /fmlkir.js mathjax.js
+script /fmlkir.js

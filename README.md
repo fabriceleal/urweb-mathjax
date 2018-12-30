@@ -1,0 +1,1 @@
+place MathJax under dir MathJax/
